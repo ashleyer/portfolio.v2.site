@@ -39,7 +39,7 @@ const PostCard = ({ title, description, date, tags, url }: PostCardProps) => {
       <CardFooter>
         <div className="flex flex-col gap-4">
           <div className="flex flex-wrap gap-2">
-            <Badge
+            {/* <Badge
               variant="outline"
               className="text-slate-700 dark:text-slate-400"
             >
@@ -53,7 +53,7 @@ const PostCard = ({ title, description, date, tags, url }: PostCardProps) => {
               >
                 {tag}
               </Badge>
-            ))}
+            ))} */}
           </div>
           <a href={url} target="_blank" rel="noreferrer">
             <Button variant="secondary">

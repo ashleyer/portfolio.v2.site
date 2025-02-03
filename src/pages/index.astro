@@ -6,8 +6,9 @@ import Avatar from "@/components/Avatar"
 import Layout from "@/layouts/Layout.astro"
 import { HiOutlineArrowDownCircle as DownIcon } from "react-icons/hi2"
 import "@/styles/globals.css"
-import "./logo.png"
-import "./wordcloud.jpg"
+import "public/logo.png"
+import "public/wordcloud.png"
+import "public/wordresumeskill.png"
 ---
 
 <script is:inline>
@@ -44,7 +45,7 @@ import "./wordcloud.jpg"
         Hello, I'm <strong>Ashley</strong>, a fullstack developer from
         Boston
       </p>
-      <img src="wordcloud.png.jpg" alt="word cloud">
+     
       <DownIcon className="text-2xl animate-bounce mt-10" />
     </section>
     <section class="flex flex-col w-full justify-center items-center gap-28">
@@ -74,6 +75,8 @@ import "./wordcloud.jpg"
   </main>
   <footer>
     <p class="text-center text-sm text-slate-700 dark:text-slate-400 p-4 mt-28">
+      <img src="wordresumeskill.png" alt="word cloud">
+
       Made with &#x2665; by Ashley Romano |  <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=ashleye.romano@gmail.com&tf=1
       ">ashleye.romano@gmail.com</a>
     </p>
