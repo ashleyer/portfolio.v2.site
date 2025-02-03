@@ -6,6 +6,8 @@ import Avatar from "@/components/Avatar"
 import Layout from "@/layouts/Layout.astro"
 import { HiOutlineArrowDownCircle as DownIcon } from "react-icons/hi2"
 import "@/styles/globals.css"
+import "./logo.png"
+import "./wordcloud.jpg"
 ---
 
 <script is:inline>
@@ -38,9 +40,11 @@ import "@/styles/globals.css"
       <p
         class="max-w-56 text-center"
       >
+      <img src="logo.png" alt="AER logo">
         Hello, I'm <strong>Ashley</strong>, a fullstack developer from
         Boston
       </p>
+      <img src="wordcloud.png.jpg" alt="word cloud">
       <DownIcon className="text-2xl animate-bounce mt-10" />
     </section>
     <section class="flex flex-col w-full justify-center items-center gap-28">
